@@ -3,14 +3,57 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Sample Docs</title>
+	<title>Спасибо</title>
 
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<!-- <link rel="stylesheet" href="css/style.min.css"> -->
 </head>
 <body class="body">
-	
+	<header class="site-header">
+		<div class="container site-header-container">
+			<a class="link-logo" href="index.html">
+				<img class="logo" src="img/logo.png" srcset="img/logo.png 1x, img/logo@2x.png 2x" alt="Spasibo logo" width="180" height="80">
+			</a>
+
+			<ul class="site-header-list">
+				<li class="site-header-item"><a class="site-header-link" href="#">Купоны и сертификаты</a></li>
+				<li class="site-header-item"><a href="#" class="site-header-link">Впечатления</a></li>
+				<li class="site-header-item"><a href="#" class="site-header-link">Авиабилеты</a></li>
+				<li class="site-header-item"><a href="#" class="site-header-link">Ж/д билеты</a></li>
+				<li class="site-header-item"><a href="#" class="site-header-link">Отели</a></li>
+				<li class="site-header-item"><a href="#" class="site-header-link">Каршеринг</a></li>
+				<li class="site-header-item"><a href="#" class="site-header-link">Театры</a></li>
+				<li class="site-header-item"><a href="#" class="site-header-link">Страхование</a></li>
+				<li class="site-header-item"><a href="#" class="site-header-link">Как подключиться</a></li>
+				<li class="site-header-item active-link"><a href="#" class="site-header-link">Партнеры</a></li>
+			</ul>
+
+			<div class="site-header-right">
+				<div class="city-wrapper">
+					<a class="site-header-city" href="#">Санкт-Петербург</a>
+					<div class="change">
+						<p class="change-text">Ваш город - <strong>Санкт-Петербург</strong>?</p>
+						<button class="change-yes">Да</button>
+						<a class="chage-city" href="#">Сменит город</a>
+					</div>
+				</div>
+				<div class="site-header-right-bottom">
+					<form class="site-header-form" action="https://echo.htmlacademy.ru" method="POST">
+						<div class="form-group">
+							<label  aria-label="Searching box">
+								<input class="site-header-input" name="key" type="search">
+								<span class="button-icon" aria-label="Search trigger"></span>
+							</label>
+						</div>
+						<button class="site-header-button" type="submit" aria-label="Search button"></button>
+					</form>
+
+					<a class="site-header-sign-in" href="#">Войти</a>
+				</div>
+			</div><!-- End of site-header-right -->
+	</div><!-- End of container -->
+	</header><!-- End of site-header -->
 
 	<script src="js/script.js"></script>
 </body>
