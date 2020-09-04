@@ -1,0 +1,30 @@
+/*fonts*/
+@font-face {
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-Medium.woff2") format("woff2"),
+      url("../fonts/Geometria-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geometria";
+  src: url("../fonts/Geometria.woff2") format("woff2"),
+      url("../fonts/Geometria.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*general styles*/
+.body {
+	margin: 0;
+	padding: 0;
+	font-family: "Geometria", "Arial", sans-serif;
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
