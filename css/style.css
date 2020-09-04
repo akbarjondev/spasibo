@@ -57,7 +57,7 @@ a:hover {
 	color: var(--main-green);
 }
 
-/*header*/
+/*site-header*/
 .site-header {
 	padding: 18px 0;
 	background-color: var(--main-white);
@@ -205,4 +205,53 @@ a:hover {
 	color: var(--main-green);
 	border: 1px solid var(--main-green);
 	border-radius: 10px;
+}
+
+/*==site-main==*/
+.site-main {
+	padding-top: 70px;
+}
+
+/*hero*/
+.hero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.hero-heading {
+	margin: 0;
+	margin-bottom: 50px;
+	font-size: 48px;
+	line-height: 52px;
+	font-weight: 500;
+}
+.hero-list {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 990px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.hero-item {
+	margin-right: 8px;
+}
+.hero-link {
+	display: inline-block;
+	padding: 12px;
+	margin: 4px 0;
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--main-black);
+	text-decoration: none;
+	border-radius: 8px;
+	background-color: var(--main-white);
+}
+.hero-item:last-child .hero-link {
+	font-size: 36px;
+}
+.active-hero-link .hero-link {
+	color: var(--main-white);
+	background-color: var(--main-green);
 }
