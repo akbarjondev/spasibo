@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,7 +43,7 @@
 						<div class="form-group">
 							<label  aria-label="Searching box">
 								<input class="site-header-input" name="key" type="search">
-								<span class="button-icon" aria-label="Search trigger"></span>
+								<span class="button-icon"></span>
 							</label>
 						</div>
 						<button class="site-header-button" type="submit" aria-label="Search button"></button>
@@ -97,7 +97,7 @@
 							<input class="hero-radio first-radio" type="radio" name="type" id="radio-count">
 							<label class="hero-checkbox-label" for="radio-count">Начисляют спасибо</label>
 							
-							<input class="hero-radio second-radio" type="radio" name="type" id="radio-get">
+							<input class="hero-radio second-radio" type="radio" name="type" id="radio-get" checked>
 							<label class="hero-checkbox-label" for="radio-get">Принимают спасибо</label>
 							
 							<span class="controller">
@@ -107,8 +107,103 @@
 						<button type="submit" class="hero-submit visually-hidden">Send</button>
 					</form>
 				</section><!-- End of hero -->
+
+				<section class="partners">
+					<h2 class="partners-heading visually-hidden">Партнёры</h2>
+
+					<ul class="partners-list partners">
+						<li class="partners-item partner">
+							<h3 class="partner__heading">М.Видео</h3>
+							<p class="partner__percent">1.5%</p>
+							<p class="partner__text">Спасибо от суммы покупки</p>
+
+							<img class="partner__img" src="img/m-video.jpg" srcset="img/m-video.jpg 1x, img/m-video@2x.jpg 2x" alt="M video"  width="120" height="120">
+						</li>
+
+						<li class="partners-item partner">
+							<h3 class="partner__heading">Бургер Кинг</h3>
+							<p class="partner__percent">3%</p>
+							<p class="partner__text">Спасибо от суммы покупки</p>
+
+							<img class="partner__img" src="img/burger-king.jpg" srcset="img/burger-king.jpg 1x, img/burger-king@2x.jpg 2x" alt="M video"  width="120" height="120">
+						</li>
+
+						<li class="partners-item partner">
+							<h3 class="partner__heading">Холодильник.ру</h3>
+							<p class="partner__percent">4.5%</p>
+							<p class="partner__text">Спасибо от суммы покупки</p>
+
+							<img class="partner__img" src="img/xolodilnik-ru.jpg" srcset="img/xolodilnik-ru.jpg 1x, img/xolodilnik-ru@2x.jpg 2x" alt="M video"  width="120" height="120">
+						</li>
+
+						<li class="partners-item partner">
+							<h3 class="partner__heading">BORK</h3>
+							<p class="partner__percent">От 1,5%</p>
+							<p class="partner__text">Спасибо от суммы покупки</p>
+
+							<img class="partner__img" src="img/bork.jpg" srcset="img/bork.jpg 1x, img/bork@2x.jpg 2x" alt="M video"  width="120" height="120">
+						</li>
+
+						<li class="partners-item partner">
+							<h3 class="partner__heading">Евросеть</h3>
+							<p class="partner__percent">1.5%</p>
+							<p class="partner__text">Спасибо от суммы покупки</p>
+
+							<img class="partner__img" src="img/evroset.jpg" srcset="img/evroset.jpg 1x, img/evroset@2x.jpg 2x" alt="M video"  width="120" height="120">
+						</li>
+					</ul><!-- End of partners-list -->
+
+					<a class="partners__all-link main-button" href="#">Еще 4 партнера</a>
+				</section><!-- End of partners -->
+
+				<section class="opportunity-section">
+					<h2 class="opportunity__heading">3 предложения в категории «Электроника и бытовая техника»</h2>
+
+					<ul class="opportunity__list opportunities">
+						<li class="opportunities__item opportunity">
+							<img class="opportunity__img" src="img/goods-texnopark.jpg" alt="20% спасибо за технику Electrolux" srcset="img/goods-texnopark.jpg 1x, img/goods-texnopark@2x.jpg 2x" width="377" height="236" aria-hidden="true">
+
+							<div class="opportunity-bottom">
+								<img class="opportunity__logo" src="img/partner-texnopark.jpg"  srcset="img/partner-texnopark.jpg 1x, img/partner-texnopark@2x.jpg 2x" alt="Texnopark logo" width="50" height="50">
+
+								<div class="opportunity-bottom-left">
+									<p class="opportunity__company-name">Технопарк</p>
+									<p class="opportunity__company-text">20% спасибо за технику Electrolux</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="opportunities__item opportunity">
+							<img class="opportunity__img" src="img/white-friday.jpg" alt="10% спасибо за покупки в черную пятницу" srcset="img/white-friday.jpg 1x, img/white-friday@2x.jpg 2x" aria-hidden="true" width="377" height="236">
+
+							<div class="opportunity-bottom">
+								<img class="opportunity__logo" src="img/partner-evoset.jpg" srcset="img/partner-evoset.jpg 1x, img/partner-evoset@2x.jpg 2x" alt="Evroset logo" width="50" height="50">
+
+								<div class="opportunity-bottom-left">
+									<p class="opportunity__company-name">Евросеть</p>
+									<p class="opportunity__company-text">10% спасибо за покупки в черную пятницу</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="opportunities__item opportunity">
+							<img class="opportunity__img" src="img/card-mvideo.jpg" alt="10% спасибо за покупки в черную пятницу" srcset="img/card-mvideo.jpg 1x, img/card-mvideo@2x.jpg 2x" aria-hidden="true" width="377" height="236">
+
+							<div class="opportunity-bottom">
+								<img class="opportunity__logo" src="img/partner-mvideo.jpg" srcset="img/partner-mvideo.jpg 1x, img/partner-mvideo@2x.jpg 2x" alt="Evroset logo" width="50" height="50">
+
+								<div class="opportunity-bottom-left">
+									<p class="opportunity__company-name">М.Видео</p>
+									<p class="opportunity__company-text">15% спасибо для студентов</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+
+					<a class="partners__all-link main-button" href="#">Еще 4 предложения</a>
+				</section><!-- End of opportunity -->
 		</div><!-- End of container -->
-	</main>
+	</main><!-- End of site-main -->
 
 	<script src="js/script.js"></script>
 </body>
